@@ -18,7 +18,8 @@ http server on the backend to serve the built project.
 
 ### Prerequisites
 
-- [Deno](https://docs.deno.com/runtime/) installed
+To run this app, you will need to have [Deno](https://docs.deno.com/runtime/)
+installed.
 
 ### Installation
 
@@ -37,10 +38,21 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 
+> For a step by step guide to using a GitHub template
+> [follow this walkthrough](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+
+## Install the dependencies
+
+To install the dependencies for the frontend and backend, run the following command:
+
+```sh
+deno install
+```
+
 ## Run the dev server with vite
 
-The react app uses a Vite dev server to run the app in development mode. To
-start the dev server, run the following command:
+The app uses a Vite dev server to run in development mode. To start the dev
+server, run the following command:
 
 ```sh
 deno task dev
@@ -73,8 +85,20 @@ deno test -A
 
 ## Project Structure
 
-. ├── client │ ├── dist │ ├── public │ └── src │ ├── App.tsx │ └── main.tsx └──
-server ├── main.ts ├── main_test.ts └── util └── routeStaticFilesFrom.ts
+```sh
+. 
+├── client 
+│   ├── dist 
+│   ├── public 
+│   └── src 
+│       ├── App.tsx 
+│       └── main.tsx 
+└── server 
+    ├── main.ts 
+    ├── main_test.ts 
+    └── util 
+        └── routeStaticFilesFrom.ts
+```
 
 - `App.tsx`: The main React component
 - `main.tsx`: The entry point for the React app
