@@ -1,0 +1,46 @@
+{
+  "hash": "94c9d219",
+  "configHash": "14e9ab75",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "8db23f39",
+  "optimized": {
+    "react/jsx-runtime": {
+      "src": "../../../node_modules/.deno/react@18.3.1/node_modules/react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "839f14a2",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../../node_modules/.deno/react@18.3.1/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "11dbcee0",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../../node_modules/.deno/react-dom@18.3.1/node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "92204b9a",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../../node_modules/.deno/react@18.3.1/node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "b7d917ff",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../../node_modules/.deno/react-dom@18.3.1/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "1f60dbe3",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-C7BZYCEL": {
+      "file": "chunk-C7BZYCEL.js"
+    },
+    "chunk-W6B6TOXE": {
+      "file": "chunk-W6B6TOXE.js"
+    }
+  }
+}
