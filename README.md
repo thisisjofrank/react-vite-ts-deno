@@ -56,7 +56,7 @@ The app uses a Vite dev server to run in development mode. To start the dev
 server, run the following command:
 
 ```sh
-deno task dev
+deno run dev
 ```
 
 ## Build the app
@@ -64,7 +64,7 @@ deno task dev
 To build the app for production, run the following command:
 
 ```sh
-deno task build
+deno run build
 ```
 
 ## Run the backend server
@@ -73,7 +73,7 @@ The backend server uses Deno and the Oak framework to serve the built React app.
 To start the backend server, run the following command:
 
 ```sh
-deno task serve
+deno run serve
 ```
 
 ## Running Tests
