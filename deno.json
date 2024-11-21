@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run -A --node-modules-dir=auto --watch npm:vite",
+    "dev": "deno run -A --node-modules-dir=auto npm:vite",
     "vite:build": "deno run -A --node-modules-dir=auto npm:vite build",
     "server:start": "deno run -A --node-modules-dir --watch ./server/main.ts",
     "serve": "deno task vite:build && deno task server:start",

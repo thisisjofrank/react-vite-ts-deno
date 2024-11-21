@@ -24,7 +24,7 @@ installed.
 ### Installation
 
 1. Create a new repository using this template. From the repository page, click
-   the "Use this template" button in the top right hand of the page.
+   the "Use this template" button in the top right hand of the page:
 
 <img src="https://docs.github.com/assets/cb-76823/images/help/repository/use-this-template-button.png" alt="Use this template button" width="400">
 
