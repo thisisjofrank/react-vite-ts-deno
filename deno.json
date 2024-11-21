@@ -17,6 +17,17 @@
     "vite": "npm:vite@^5.4.11"
   },
   "compilerOptions": {
+    "types": [
+      "react",
+      "react-dom",
+      "@types/react"
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "deno.ns"
+    ],
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   }
