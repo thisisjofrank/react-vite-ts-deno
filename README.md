@@ -26,7 +26,7 @@ installed.
 1. Create a new repository using this template. From the repository page, click
    the "Use this template" button in the top right hand of the page.
 
-![Use this template](https://docs.github.com/assets/cb-76823/images/help/repository/use-this-template-button.png)
+<img src="https://docs.github.com/assets/cb-76823/images/help/repository/use-this-template-button.png" alt="Use this template button" width="400">
 
 2. Use the Owner dropdown menu to select the account you want to own the
    repository and set the repository name and visibility.
