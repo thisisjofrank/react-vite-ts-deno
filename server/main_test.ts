@@ -49,13 +49,14 @@ describe("Application", () => {
 });
 
 async function serve(abortController = new AbortController()) {
-  const randomPort = Math.floor(Math.random() * 10000) + 1000;
+  let randomPort = 0;
 
   app.listen({ port: randomPort, signal: abortController.signal });
 
   await new Promise<void>((resolve) => {
-    app.addEventListener("listen", () => {
-      console.log(`Server running on http://localhost:${randomPort}`);
+    app.addEventListener("listen", (ev) => {
+      randomPort = ev.port;
+      console.log(`Server running on http://localhost:${ev.port}`);
       resolve();
     });
   });
