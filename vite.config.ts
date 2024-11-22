@@ -12,7 +12,7 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    deno()
+    deno(),
   ],
   optimizeDeps: {
     include: ["react/jsx-runtime"],
